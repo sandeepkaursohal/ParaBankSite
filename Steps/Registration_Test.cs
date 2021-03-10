@@ -31,9 +31,6 @@ namespace ParaBankSite.Steps
             //HomePage.RG_TC01_NEG();
             String aText = WelcomePage.AccountCreated();
             String expText = "Welcome Sandeep";
-
-         
-
             Verify.Text(expText, aText);
            
 

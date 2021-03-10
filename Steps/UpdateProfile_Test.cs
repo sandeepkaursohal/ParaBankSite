@@ -32,10 +32,10 @@ namespace ParaBankSite.Steps
             // verify
             //IWebElement Profile_updated = Service.driver.FindElement(By.XPath("//*[@id='rightPanel']/div/div/h1"));
 
-            IWebElement Profile_updated = Service.driver.FindElement(By.XPath("//*[@id='rightPanel']/div/div/p"));
-
+            IWebElement Profile_updated = Service.driver.FindElement(By.XPath("//*[@id='rightPanel']/div/div/h1"));
+         
             string ProUpdated = Profile_updated.Text;
-
+            Thread.Sleep(1000);
 
             Console.WriteLine(ProUpdated);
 

@@ -20,7 +20,7 @@ namespace ParaBankSite.Examples
 
 
             Boolean Clk = ClickMe.Enabled;   // Enabled operation returns Boolean value , Same is shown in Output
-            Console.WriteLine("Elelemt Disabled ? " + Clk);
+            Console.WriteLine("Element Disabled ? " + Clk);
 
 
         }

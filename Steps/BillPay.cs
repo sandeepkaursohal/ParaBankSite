@@ -66,7 +66,7 @@ namespace ParaBankSite.Steps
             //Click Send Payment
             Service.driver.FindElement(By.XPath("//input[@value='Send Payment']")).Click();
 
-            //Verify Bill Payment Complete 
+            //Verify Bill Payment Complete  //msg shoud be - Bill Payment Complete 
 
             IWebElement BPComplete = Service.driver.FindElement(By.XPath("//*[@id='rightPanel']/div/div[2]/h1"));
             string BillPay = BPComplete.Text;

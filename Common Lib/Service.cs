@@ -25,6 +25,8 @@ namespace ParaBankSite.Common_Lib
                 Service.driver.Navigate().GoToUrl(url);
             }
         }
+
+      
         public static void CloseDriver()
         {
             //Close the Chrome Browser 

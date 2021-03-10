@@ -11,19 +11,23 @@ namespace ParaBankSite.Pages
     {
         public static void CustomerLogin()
         {
-            IWebElement customerName = Service.driver.FindElement(By.Name("username"));
-            customerName.Clear();
-            customerName.SendKeys("SS");
+            {
+                IWebElement customerName = Service.driver.FindElement(By.Name("username"));
+                customerName.Clear();
+                customerName.SendKeys("san");
 
-            IWebElement customerpassword = Service.driver.FindElement(By.Name("password"));
-            customerpassword.Clear();
-            customerpassword.SendKeys("kk");
+                IWebElement customerpassword = Service.driver.FindElement(By.Name("password"));
+                customerpassword.Clear();
+                customerpassword.SendKeys("123");
 
-            IWebElement loginButton = Service.driver.FindElement(By.XPath("//input[@value='Log In']"));
-            loginButton.Click();
+                IWebElement loginButton = Service.driver.FindElement(By.XPath("//input[@value='Log In']"));
+                loginButton.Click();
 
-            Thread.Sleep(4000);
+                Thread.Sleep(4000);
 
+            }
         }
     }
 }
+
+
